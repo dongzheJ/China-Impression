@@ -1,0 +1,222 @@
+ul.slides{
+    margin:auto;
+}
+div.flexslider ul.slides img{
+    max-width:100%;
+    float:none;
+}
+div.jquery-slider{
+    width:985px;
+    margin:auto;
+}
+h1{
+    font-family: Cooper Black;
+}
+#big h1{
+    text-align: center;
+}
+
+img{
+    float:right;
+    width:50%;
+    border:3.5px double black;
+}
+h1#huang, h3#history, h4#reference{
+    text-align: center;
+    font-size: 1.5em;
+}
+h1#huang{
+    color:red;
+}
+h1#Li, h3#recent, h4#pp{
+    text-align: center;
+    font-size:1.5em;
+}
+h1#Li{
+    color:red;
+}
+h1#jiu, h2#geology,h3#refer{
+    text-align: center;
+    font-size: 1.5em;
+}
+h1#jiu{
+    color:red;
+}
+h1#army{
+    text-align: center;
+    color:red;
+}
+h1#suzhou, h2#lion, h3#humble{
+    text-align: center;
+    font-size: 1.5em;
+}
+h1#suzhou{
+    color: red;
+}
+@media screen and (max-width: 699px) and (min-width: 520px){
+    article{
+        background-color:rgba(0, 255, 0, 0.3);
+        color: red;
+    }
+}
+
+.small li {
+    float: left;
+}
+.small{
+    list-style-type: none;
+    margin:auto;
+    width:65%;
+    overflow: hidden;
+    border-bottom: solid;
+    border-top: solid;
+}
+.small li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.small li a:hover {
+    background-color: beige;
+}
+article{
+    font: 17px Arial, Verdana;
+    margin: auto;
+    width:98%;
+    background-image: url("bb.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+nav ol li {
+    display:inline-block;
+    list-style-type:none;
+    padding-right:6em;
+}
+footer{
+    clear:both;
+}
+fieldset{
+    clear: both;
+    margin-top:2em;
+    padding:1em;
+}
+label{
+    color: #000;
+    font-size:1em;
+    font-weight:bold;
+}
+.form-heading{
+    border-bottom:2px solid #000000;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom:1.75em;
+    padding-bottom:0.4em;
+}
+.text-field{
+    display:inline-block;
+    padding-right:1em;
+    padding-top:0.75em;
+    text-align:right;
+    width:7em;
+}
+#form input,#form textarea,#form select{
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: 2px 2px 4px #EBEBEB;
+    border-radius: 3px;
+    padding:1em;
+    outline: none;
+}
+#form input:focus,#form textarea:focus,#form select:focus{
+    border:1px solid #ff5555;
+}
+#form textarea{
+    height:6em;
+    width:100%;
+}
+#form input[type=submit]{
+    background:  #dadada none repeat scroll 0 0;
+    border:medium none;
+    border-radius:3px;
+    box-shadow:1px 1px 4px #dadada;
+    color: black;
+    margin:1em;
+    padding:0.8em 1.4em;
+}
+.bottons legend{
+    display: none;
+}
+.mistake {
+    color:#fff;
+    background-color:#800;
+    border: thin solid #000;
+}
+#errors ol li{
+    color: red;
+}
+#errors{
+    background-color: white;
+    color: red;
+}
+#main{
+    width: 65%;
+    margin: auto;
+    margin-top: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 2%;
+}
+#main h2{
+    text-align: center;
+    color:red;
+}
+.header{
+    background-image: url("../ChinaImpression/images/header.jpg");
+    padding: 1.8em 0 1.8em 0;
+
+}
+fieldset.buttons{
+    border:none;
+}
+article.warriors img{
+    
+    border:none;
+}
+.gardens-i{
+    float: none;
+    margin-left: 15em;
+}
+.jiuzhaigou-p{
+    margin-bottom: 11em;
+}
+.Lijiang-p{
+    margin-bottom: 16em;
+}
+.warriors_1{
+   margin-bottom: 22em;
+}
+.warriors_2{
+    margin-bottom:11em;
+}
+.warriors_4{
+    margin-bottom: 4em;
+}
+.warriors_5{
+    margin-bottom: 15em;
+}
+img#aa:hover{
+    color: bisque;
+}
+h3#how, h4#what{
+    font-size: 1.5em;
+}
+h4#mm{
+    text-align:center;
+}
+#gg{
+    margin-bottom: 6em;
+}
